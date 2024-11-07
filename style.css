@@ -107,6 +107,7 @@ body {
   background: #ffc600;
   flex: 0;
   flex-basis: 50%;
+  max-width: calc(100% - 50px);
 }
 
 /* unholy css to style input type="range" */
@@ -169,4 +170,14 @@ p {
   font-size: 20px;
   font-weight: 600;
   color: thistle;
+}
+
+.time-display {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }

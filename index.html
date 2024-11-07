@@ -10,10 +10,11 @@
   <body>
     <div class="player">
       <video class="player__video viewer" src="sample-video.mp4"></video>
- 
+
       <div class="player__controls">
         <div class="progress">
          <div class="progress__filled"></div>
+         <span id="time-display" class="time-display"></span>
         </div>
         <button class="player__button toggle" title="Toggle Play">►</button>
         <input type="range" name="volume" class="player__slider" min="0" max="1" step="0.05" value="1">
@@ -24,7 +25,7 @@
       </div>
     </div> 
     <div>
-      <marquee behavior=""direction=""><p>She looks hungry! 🐑</p></marquee>
+      <marquee behavior="" direction=""><p>She looks hungry! 🐑</p></marquee>
     </div>
    </body>
 </html>
